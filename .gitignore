@@ -1,0 +1,30 @@
+# Python
+backend/.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+backend/.env
+
+# Node / React
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+
+# Model checkpoints
+backend/checkpoints/*
+!backend/checkpoints/.gitkeep
+*.pt
+*.pth
+*.ckpt
+
+# Medical imaging data
+*.nii
+*.nii.gz
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
